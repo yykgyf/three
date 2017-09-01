@@ -1,0 +1,25 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  overflow: hidden; }
+
+.header {
+  height: 0.4rem;
+  border-bottom: 1px solid #eee; }
+  .header ul {
+    display: -webkit-flex; }
+    .header ul li {
+      width: 33.3%;
+      line-height: 0.4rem;
+      text-align: center;
+      font-size: 0.14rem; }
+    .header ul .active {
+      color: #617ef6;
+      border-bottom: 1px solid #617ef6; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=2,maximum-scale=1,user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/common.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <ul>
+        <li class="active">未使用</li>
+        <li>已使用</li>
+        <li>已过期</li>
+    </ul>
+</header>
+
+<section class="content">
+    
+</section>
+
+<footer class="footer">
+   
+</footer>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+    $('.header ul').on('click','li',function(){
+        $(this).addClass('active').siblings().removeClass('active');
+    })
+</script>
+</body>
+</html>
